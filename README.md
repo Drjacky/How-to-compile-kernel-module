@@ -10,7 +10,7 @@ PATCHLEVEL = 6
 SUBLEVEL = 29
 EXTRAVERSION =
 
-obj-m := cpufreq_smartass.o
+obj-m := module_sourcecode.o
 PWD := $(shell pwd)
 default:
         $(MAKE) ARCH=arm CROSS_COMPILE=/home/path/to/androidnsk/android_platform/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi- -C $(KERNEL_DIR) SUBDIRS=$(PWD) modules
