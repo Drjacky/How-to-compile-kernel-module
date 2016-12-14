@@ -35,3 +35,31 @@ int init_module(void){
    return 0;
 }
 ```
+
+Note (Optional):  
+Add these helpful lines for all the times, to your .bashrc file:  
+```javascript
+export ANDROID_NDK=/home/drjacky/Desktop/DLz/android-ndk-r10e
+export ANDROID_NDK_ROOT=/home/drjacky/Desktop/DLz/android-ndk-r10e
+export ANDROID_SDK=/home/drjacky/Desktop/DLz/android-sdk-linux
+export NDK=/home/drjacky/Desktop/DLz/android-ndk-r10e
+export ANDROID_API_VERSION=android-14
+export NDK_SYSROOT=/home/drjacky/Desktop/DLz/android-ndk-r10e/platforms/android-14/arch-arm
+export TOOLCHAIN=/home/drjacky/Desktop/DLz/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64
+export ANDROID_TOOLCHAIN=/home/drjacky/Desktop/DLz/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64
+export adb=/home/drjacky/Desktop/DLz/android-sdk-linux/platform-tools
+export android=/home/drjacky/Desktop/DLz/android-sdk-linux/tools
+#export ndk-build=/home/drjacky/Desktop/DLz/android-ndk-r10e
+```
+And these to your /etc/environment file:  
+```javascript
+ANDROID_NDK="/home/drjacky/Desktop/DLz/android-ndk-r10e"
+ANDROID_SDK="/home/drjacky/Desktop/DLz/android-sdk-linux"
+NDK="/home/drjacky/Desktop/DLz/android-ndk-r10e"
+ANDROID_API_VERSION="android-14"
+export NDK_SYSROOT="/home/drjacky/Desktop/DLz/android-ndk-r10e/platforms/android-14/arch-arm"
+TOOLCHAIN="/home/drjacky/Desktop/DLz/android-ndk-r10e/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64"
+adb="/home/drjacky/Desktop/DLz/android-sdk-linux/platform-tools"
+android="/home/drjacky/Desktop/DLz/android-sdk-linux/tools"
+##ndk-build="/home/drjacky/Desktop/DLz/android-ndk-r10e"
+```
