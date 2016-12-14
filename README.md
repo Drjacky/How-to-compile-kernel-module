@@ -1,7 +1,7 @@
 # How-to-compile-kernel-module
 How to compile a kernel module with/for another kernel
 
-1- Download and Extract Android NDK.  
+1- Download and Extract Android NDK(for example: http://mirrors.neusoft.edu.cn/android/repository/android-ndk-r13b-linux-x86_64.zip).  
 2- Download desired module source.  
 3- Create Makefile with below content:  
 ```javascript
